@@ -6,5 +6,8 @@ import 'package:flutter/material.dart';
 import 'package:myfirstapp/MyApp.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp(
+    name: 'abc',
+    age: 2,
+  ));
 }
